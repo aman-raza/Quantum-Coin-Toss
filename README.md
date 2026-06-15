@@ -76,3 +76,5 @@ quantum-coin-toss --shots 1024
 
 The output shows the circuit, unless hidden, and the number of heads and tails
 observed over the requested number of simulated tosses.
+
+<img width="1913" height="958" alt="image" src="https://github.com/user-attachments/assets/8186053a-fcdd-4af3-9aae-b932480850cc" />
