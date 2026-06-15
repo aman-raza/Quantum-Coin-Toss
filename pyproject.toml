@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quantum-coin-toss"
+version = "0.1.0"
+description = "A Qiskit-powered command-line quantum coin toss simulator."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "qiskit",
+    "qiskit-aer",
+    "matplotlib",
+]
+
+[project.scripts]
+quantum-coin-toss = "quantum_coin_toss:main"
